@@ -17,7 +17,7 @@ export default class App extends React.Component{
         }
         this.g1 = arrayClone(this.state.gridFull);               
     }
-    
+      
     selectBox = (row, col) => {
         let gridCopy = arrayClone(this.state.gridFull);
         gridCopy[row][col] = !gridCopy[row][col];
